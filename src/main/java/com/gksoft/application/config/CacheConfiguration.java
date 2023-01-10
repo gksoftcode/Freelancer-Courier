@@ -48,6 +48,29 @@ public class CacheConfiguration {
             createCache(cm, com.gksoft.application.domain.User.class.getName());
             createCache(cm, com.gksoft.application.domain.Authority.class.getName());
             createCache(cm, com.gksoft.application.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.gksoft.application.domain.StateProvince.class.getName());
+            createCache(cm, com.gksoft.application.domain.StateProvince.class.getName() + ".appUsers");
+            createCache(cm, com.gksoft.application.domain.Country.class.getName());
+            createCache(cm, com.gksoft.application.domain.Country.class.getName() + ".appUsers");
+            createCache(cm, com.gksoft.application.domain.City.class.getName());
+            createCache(cm, com.gksoft.application.domain.City.class.getName() + ".appUsers");
+            createCache(cm, com.gksoft.application.domain.UserRate.class.getName());
+            createCache(cm, com.gksoft.application.domain.ItemTypes.class.getName());
+            createCache(cm, com.gksoft.application.domain.ItemTypes.class.getName() + ".flights");
+            createCache(cm, com.gksoft.application.domain.ItemTypes.class.getName() + ".cargoRequests");
+            createCache(cm, com.gksoft.application.domain.AppUser.class.getName());
+            createCache(cm, com.gksoft.application.domain.AppUser.class.getName() + ".userRates");
+            createCache(cm, com.gksoft.application.domain.Flight.class.getName());
+            createCache(cm, com.gksoft.application.domain.Flight.class.getName() + ".availableItemTypes");
+            createCache(cm, com.gksoft.application.domain.CargoRequestStatus.class.getName());
+            createCache(cm, com.gksoft.application.domain.CargoRequest.class.getName());
+            createCache(cm, com.gksoft.application.domain.CargoRequest.class.getName() + ".cargoRequestDetails");
+            createCache(cm, com.gksoft.application.domain.CargoRequest.class.getName() + ".asks");
+            createCache(cm, com.gksoft.application.domain.CargoRequest.class.getName() + ".bids");
+            createCache(cm, com.gksoft.application.domain.CargoRequest.class.getName() + ".reqItemTypes");
+            createCache(cm, com.gksoft.application.domain.CargoRequestDetails.class.getName());
+            createCache(cm, com.gksoft.application.domain.Bid.class.getName());
+            createCache(cm, com.gksoft.application.domain.Ask.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

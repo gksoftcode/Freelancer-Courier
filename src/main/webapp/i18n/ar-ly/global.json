@@ -7,6 +7,18 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "الكيانات",
+        "stateProvince": "State Province",
+        "country": "Country",
+        "city": "City",
+        "userRate": "User Rate",
+        "itemTypes": "Item Types",
+        "appUser": "App User",
+        "flight": "Flight",
+        "cargoRequestStatus": "Cargo Request Status",
+        "cargoRequest": "Cargo Request",
+        "cargoRequestDetails": "Cargo Request Details",
+        "bid": "Bid",
+        "ask": "Ask",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
